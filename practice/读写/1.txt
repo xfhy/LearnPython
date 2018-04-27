@@ -1,0 +1,37 @@
+﻿HotelName	String		酒店名称	
+HotelEngName	String		酒店英文名称	
+Star	Int		酒店星级	
+StarName	String		酒店星级名称	
+BrandID	Int		酒店品牌	来源于枚举值
+BrandName	String		酒店品牌名称	
+Address	String		酒店地址	
+AddressEng	String		酒店英文地址	
+HotelFacilities	Int		酒店设施	
+HotelFacilitiesDesc	String		酒店设施描述	
+SaleBright	String		卖点	
+Introduction	String		酒店描述	
+FitmentDate	String		开业时间	
+PraciceDate	String		装修时间	
+Phone	String		电话	
+Mail	String		邮件	
+Fax	String		传真	
+MapType	Int		经纬度类型	0：百度
+1：谷歌
+Longitude	String		经度	
+Latitude	String		纬度	
+CateGory	Int		推荐级别	1：经济型
+2：三星及舒适
+3：四星及高档
+4：五星及豪华
+5：二星及其他
+CommentScore	String		评分	
+CountryID	Int		所属国家	
+CountryName	String		所属国家名称	
+ProvinceID	Int		所属省份	
+ProvinceName	String		所属省份名称	
+CityID	Int		所属城市	
+CityName	String		所属城市名称	
+ZoneID	Int		所属行政区	
+ZoneName	String		所属行政区名称	
+BusiZoneName	String		所属商业区	
+TittleImage	String		封面图片	

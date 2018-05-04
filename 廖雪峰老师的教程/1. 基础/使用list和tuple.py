@@ -31,4 +31,20 @@ print(s[2][1])
 
 
 # tuple
+# tuple一旦初始化就不能修改
+# 因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。
 classmates = (1,2)
+
+print(classmates)
+classmates = (1,)
+print(classmates)
+
+L = [
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', 'Ruby', 'PHP'],
+    ['Adam', 'Bart', 'Lisa']
+]
+
+print(L[0][0])
+print(L[1][1])
+print(L[2][2])
